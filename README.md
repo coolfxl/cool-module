@@ -1,7 +1,9 @@
 # cool-module
 js组件库，最终版，附带操作说明
 
-#具体操作
+## 具体操作
+
+### 资源引进
 
 * 引进css样式文件
    *  #分页样式
@@ -16,33 +18,20 @@ js组件库，最终版，附带操作说明
 * 引进js文件
   * 引入jQuery依赖
     * <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  * 树形菜单js
+    * <script type="text/javascript" src="tree/tm_tree.js" ></script>
+  * js组件库工具类
+    * <script type="text/javascript" src="js/sgutil.js"></script>
+  * 组件库js
+    * <script type="text/javascript" src="js/sg.js"></script>
+  * 分页js
+    * <script type="text/javascript" src="js/tz_page.js" ></script>
+  * 日期
+    * <script type="text/javascript" src="js/date/WdatePicker.js" ></script>
 
+### 实际操作
 
-#树形菜单js
-
-<script type="text/javascript" src="tree/tm_tree.js" ></script>
-
-
-#js组件库工具类
-
-<script type="text/javascript" src="js/sgutil.js"></script>
-
-
-#组件库js
-
-<script type="text/javascript" src="js/sg.js"></script>
-
-
-#分页js
-
-<script type="text/javascript" src="js/tz_page.js" ></script>
-#日期
-
-<script type="text/javascript" src="js/date/WdatePicker.js" ></script>
-
-
-
-#日期
+* 日期
 
 <input type="text" id="searchStartTime" class="Wdate" onclick="showdate1()">
 
