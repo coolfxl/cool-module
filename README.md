@@ -81,8 +81,8 @@ js组件库，最终版，附带操作说明
   
 ![树形菜单](https://github.com/coolfxl/cool-module/blob/master/pictures/more-tree.png)
 
-
 * 分页
+
   
     div class="cpage"
     
@@ -101,10 +101,10 @@ js组件库，最终版，附带操作说明
 		
 		}
 	});
+	
 * 图形界面
 	
 	![分页](https://github.com/coolfxl/cool-module/blob/master/pictures/page.jpg)
-
 
 * 弹出层
 
@@ -120,9 +120,7 @@ js组件库，最终版，附带操作说明
 	
 *	图形界面
 
-
 ![iframe](https://github.com/coolfxl/cool-module/blob/master/pictures/iframe.jpg)
-
 
 *	confirm
 	
@@ -198,7 +196,6 @@ js组件库，最终版，附带操作说明
 
 ![alert](https://github.com/coolfxl/cool-module/blob/master/pictures/alert.jpg)
 
-
 *	dialog
 
 		$.ymDialog({ //删除提示
@@ -211,7 +208,6 @@ js组件库，最终版，附带操作说明
 		});
 
 ![dialog](https://github.com/coolfxl/cool-module/blob/master/pictures/dialog.jpg)
-
 
 *	提示框
 
@@ -245,7 +241,6 @@ js组件库，最终版，附带操作说明
 
 *	center-tip
 	
-
 	loading("content", timer)
 	
 	loading("演示开始")
@@ -273,8 +268,6 @@ js组件库，最终版，附带操作说明
 	 
 ![ele-tip](https://github.com/coolfxl/cool-module/blob/master/pictures/ele-tip.jpg)	 
 
-
-
 *	滑块
 
 	div class="slider"
@@ -286,7 +279,6 @@ js组件库，最终版，附带操作说明
 	*	图形界面
 	
 ![slider](https://github.com/coolfxl/cool-module/blob/master/pictures/slider.jpg)
-
 
 *	tab页面
 	
