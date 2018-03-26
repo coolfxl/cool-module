@@ -253,8 +253,8 @@ js组件库，最终版，附带操作说明
 
 	/**
 		元素提示框
-		$(selector).tips({
 		
+		$(selector).tips({
 			msg:'your messages!',    //提示消息  必填
 			side:1,  //提示窗显示位置  1，2，3，4 分别代表 上右下左 默认为1（上） 可选
 			color:'#FFF', //提示文字色 默认为白色 可选
