@@ -194,6 +194,20 @@ js组件库，最终版，附带操作说明
 ![alert](https://github.com/coolfxl/cool-module/blob/master/pictures/alert.jpg)
 
 
+*	dialog
+
+		$.ymDialog({ //删除提示
+		
+			title : "删除提示",
+			contents : "确定要删除文件吗？",
+			success : function(){ //确定删除
+				$("#test").show().removeClass("animated bounceOutUp").addClass("animated bounceInUp");
+			}
+		});
+
+![dialog](https://github.com/coolfxl/cool-module/blob/master/pictures/dialog.jpg)
+
+
 *	提示框
 
 	*	top-tip
@@ -219,11 +233,13 @@ js组件库，最终版，附带操作说明
 		
 	 * @param $
 	 */
-*	图形界面
+	 
+	*	图形界面
 
 ![toptip](https://github.com/coolfxl/cool-module/blob/master/pictures/top-tip.jpg)
 
 *	center-tip
+	
 
 	loading("content", timer)
 	
@@ -231,4 +247,23 @@ js组件库，最终版，附带操作说明
 	
 *	图形界面
 
-![toptip](https://github.com/coolfxl/cool-module/blob/master/pictures/top-tip.jpg)
+![toptip](https://github.com/coolfxl/cool-module/blob/master/pictures/center-tip.jpg)
+
+*	ele-tip
+
+	/**
+		元素提示框
+		$(selector).tips({
+			msg:'your messages!',    //提示消息  必填
+			side:1,  //提示窗显示位置  1，2，3，4 分别代表 上右下左 默认为1（上） 可选
+			color:'#FFF', //提示文字色 默认为白色 可选
+			bg:'#F00',//提示窗背景色 默认为红色 可选
+			time:3,//自动关闭时间 默认3秒， 设置0则不自动关闭 可选
+			x:0,//纵向偏移  正数向右偏移 负数向左偏移 默认为0 可选，数值
+			y:0,//横向偏移  正数向下偏移 负数向上偏移 默认为0 可选， 数值
+		})
+	 */
+	 
+	 *	图形界面
+	 
+![eletip](https://github.com/coolfxl/cool-module/blob/master/pictures/ele-tip.jpg)	 
