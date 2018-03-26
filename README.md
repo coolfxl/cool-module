@@ -46,6 +46,7 @@ js组件库，最终版，附带操作说明
 ![日历](https://github.com/coolfxl/cool-module/blob/master/pictures/date.jpg)
 
 * 树形菜单
+
   div id="permissiontree" <br/>
   $("#permissiontree").tmTree({})<br/>
   $("#permissiontree").tmTree({<br/>
