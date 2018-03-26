@@ -105,7 +105,7 @@ js组件库，最终版，附带操作说明
 	
 	![分页](https://github.com/coolfxl/cool-module/blob/master/pictures/page.jpg)
 
-* iframe
+* 弹出层
 
 	*	iframe
 	
