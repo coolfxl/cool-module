@@ -50,26 +50,26 @@ js组件库，最终版，附带操作说明
   div id="permissiontree" <br/>
   $("#permissiontree").tmTree({})<br/>
   $("#permissiontree").tmTree({<br/>
-    rightMenu:true,root:root,children:children,type:"checkbox",callback:function($opTarget, params, model){
+      rightMenu:true,root:root,children:children,type:"checkbox",callback:function($opTarget, params, model){
         
-    var opid = params.opid;//选中节点的id
-    
-    if(model == "add"){
-    
-    }
-    
-    if(model == "edit"){
-    
-    }
-    
-    if(model == "delete"){
-    
-    }
-    
-    if(model == "cancel"){
-    
-    }
-    
+      var opid = params.opid;//选中节点的id
+
+      if(model == "add"){
+
+      }
+
+      if(model == "edit"){
+
+      }
+
+      if(model == "delete"){
+
+      }
+
+      if(model == "cancel"){
+
+      }
+
   }});
 
 
