@@ -46,9 +46,10 @@ js组件库，最终版，附带操作说明
 ![日历](https://github.com/coolfxl/cool-module/blob/master/pictures/date.jpg)
 
 * 树形菜单
-  <div id="permissiontree"></div>
-  $("#permissiontree").tmTree({})
-  $("#permissiontree").tmTree({rightMenu:true,root:root,children:children,type:"checkbox",callback:function($opTarget, params, model){
+  <div id="permissiontree"></div><br/>
+  $("#permissiontree").tmTree({})<br/>
+  $("#permissiontree").tmTree({<br/>
+    rightMenu:true,root:root,children:children,type:"checkbox",callback:function($opTarget, params, model){
     var opid = params.opid;//选中节点的id
     if(model == "add"){
     }
