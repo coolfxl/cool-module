@@ -5,13 +5,13 @@ js组件库，最终版，附带操作说明
 
 引进css样式文件
 #分页样式
-<link rel="stylesheet" type="text/css" href="css/css/tz-page.css"></link>
+link rel="stylesheet" type="text/css" href="css/css/tz-page.css"
 
 #树形菜单样式 
-<link rel="stylesheet" type="text/css" href="tree/tm_tree.css"></link>
+link rel="stylesheet" type="text/css" href="tree/tm_tree.css"
 
 #js组件库所有的样式
-<link rel="stylesheet" href="css/css/sg.css"></link>
+link rel="stylesheet" href="css/css/sg.css"
 
 引进js文件
 #引入jQuery依赖
