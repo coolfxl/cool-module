@@ -105,8 +105,8 @@ js组件库，最终版，附带操作说明
 	
 	![分页](https://github.com/coolfxl/cool-module/blob/master/pictures/page.jpg)
 
-  * 弹出层
-  
+* iframe
+
 	*	iframe
 	
 	$.tzIframe({width:320,height:400,title:"用户分配角色",ghost:false,content:"iframe.html",callback:function(iframe,$dialog,opts){
