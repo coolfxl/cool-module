@@ -19,15 +19,15 @@ js组件库，最终版，附带操作说明
   * 引入jQuery依赖
     * <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
   * 树形菜单js
-    * <script type="text/javascript" src="tree/tm_tree.js" ></script>
+    * <script type="text/javascript" src="tree/tm_tree.js"></script>
   * js组件库工具类
     * <script type="text/javascript" src="js/sgutil.js"></script>
   * js组件库
     * <script type="text/javascript" src="js/sg.js"></script>
-  * 分页js
-    * <script type="text/javascript" src="js/tz_page.js" ></script>
-  * 日期
-    * <script type="text/javascript" src="js/date/WdatePicker.js" ></script>
+  * 分页js
+    * <script type="text/javascript" src="js/tz_page.js"></script>
+  * 日期
+    * <script type="text/javascript" src="js/date/WdatePicker.js"></script>
 
 ### 实际操作
 
