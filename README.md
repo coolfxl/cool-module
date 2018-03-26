@@ -194,4 +194,41 @@ js组件库，最终版，附带操作说明
 ![alert](https://github.com/coolfxl/cool-module/blob/master/pictures/alert.jpg)
 
 
+*	提示框
 
+	*	top-tip
+	
+	/**
+	 * 友情提示组件，从html的顶部出现
+	 * 使用方式：
+	 
+		$.topTips({
+			content:"文件删除成功！",
+			controls : "warn",
+			timer:2
+		});
+
+		参数说明：
+		content：提示的内容
+		controls：提示样式
+			错误提示:err,
+			警告提示:warn,
+			成功提示：ok,
+			等待提示：loading
+		timer:显示和消失总体时间
+		
+	 * @param $
+	 */
+*	图形界面
+
+![toptip](https://github.com/coolfxl/cool-module/blob/master/pictures/top-tip.jpg)
+
+*	center-tip
+
+	loading("content", timer)
+	
+	loading("演示开始")
+	
+*	图形界面
+
+![toptip](https://github.com/coolfxl/cool-module/blob/master/pictures/top-tip.jpg)
