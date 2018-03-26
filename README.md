@@ -29,9 +29,9 @@ js组件库，最终版，附带操作说明
   * 日期
     * <script type="text/javascript" src="js/date/WdatePicker.js"></script>
 
-### 实际操作
+## 实际操作
 
-* 日期
+### 日期
 
   input type="text" id="searchStartTime" class="Wdate" onclick="showdate1()"
 
@@ -45,7 +45,7 @@ js组件库，最终版，附带操作说明
 
 ![日历](https://github.com/coolfxl/cool-module/blob/master/pictures/date.jpg)
 
-* 树形菜单
+### 树形菜单
 
   div id="permissiontree" <br/>
   $("#permissiontree").tmTree({})<br/>
@@ -81,7 +81,7 @@ js组件库，最终版，附带操作说明
   
 ![树形菜单](https://github.com/coolfxl/cool-module/blob/master/pictures/more-tree.png)
 
-* 分页
+### 分页
 
   
     div class="cpage"
@@ -106,7 +106,7 @@ js组件库，最终版，附带操作说明
 	
 	![分页](https://github.com/coolfxl/cool-module/blob/master/pictures/page.jpg)
 
-* 弹出层
+### 弹出层
 
 *	iframe
 	
@@ -209,7 +209,7 @@ js组件库，最终版，附带操作说明
 
 ![dialog](https://github.com/coolfxl/cool-module/blob/master/pictures/dialog.jpg)
 
-*	提示框
+###	提示框
 
 *	top-tip
 	
@@ -268,7 +268,7 @@ js组件库，最终版，附带操作说明
 	 
 ![ele-tip](https://github.com/coolfxl/cool-module/blob/master/pictures/ele-tip.jpg)	 
 
-*	滑块
+###	滑块
 
 	div class="slider"
 	
@@ -280,7 +280,7 @@ js组件库，最终版，附带操作说明
 	
 ![slider](https://github.com/coolfxl/cool-module/blob/master/pictures/slider.jpg)
 
-*	tab页面
+###	tab页面
 	
 	div class="tab"
 	
