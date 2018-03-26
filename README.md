@@ -13,10 +13,9 @@ js组件库，最终版，附带操作说明
 
 
 
-引进js文件
-#引入jQuery依赖
-
-<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+* 引进js文件
+  * 引入jQuery依赖
+    * <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 
 
 #树形菜单js
