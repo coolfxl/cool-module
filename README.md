@@ -49,7 +49,12 @@ js组件库，最终版，附带操作说明
 
   div id="permissiontree" <br/>
   $("#permissiontree").tmTree({})<br/>
-  $("#permissiontree").tmTree({<br/>
+  
+  var permissions = {"root":[{"name":"所有","opid":1,"pid":1,"url":"javascript:void(0);"},{"name":"审核","opid":10,"pid":10,"url":"javascript:void(0);"},{"name":"查看","opid":11,"pid":11,"url":"javascript:void(0);"},{"name":"工具","opid":12,"pid":12,"url":"javascript:void(0);"},{"name":"模板管理","opid":13,"pid":13,"url":"javascript:void(0);"}],"children":{"1":[{"name":"禁用","opid":2,"pid":2,"url":"javascript:void(0);"},{"name":"搜索","opid":5,"pid":5,"url":"javascript:void(0);"},{"name":"添加","opid":6,"pid":6,"url":"javascript:void(0);"},{"name":"置顶","opid":7,"pid":7,"url":"javascript:void(0);"},{"name":"评论","opid":8,"pid":8,"url":"javascript:void(0);"},{"name":"下单","opid":9,"pid":9,"url":"javascript:void(0);"}],"2":[{"name":"yy7y","opid":20,"pid":20,"url":"javascript:void(0);"}]}}
+
+  
+  $("#permissiontree").tmTree({
+  
       rightMenu:true,root:root,children:children,type:"checkbox",callback:function($opTarget, params, model){
         
       var opid = params.opid;//选中节点的id
