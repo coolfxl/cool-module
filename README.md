@@ -122,7 +122,7 @@ js组件库，最终版，附带操作说明
 ![iframe](https://github.com/coolfxl/cool-module/blob/master/pictures/iframe.jpg)
 
 
-	*	iframe
+*	confirm
 	
 	$.tzConfirm({
 	
@@ -177,5 +177,21 @@ js组件库，最终版，附带操作说明
 	});
 	*	图形界面
 	
-![iframe](https://github.com/coolfxl/cool-module/blob/master/pictures/confirm.jpg)
-	
+![confirm](https://github.com/coolfxl/cool-module/blob/master/pictures/confirm.jpg)
+
+*	alert
+
+	$.tzAlert({title:"hello",content:"welcome to my page",callback:function(ok, $dialog, opts) {
+
+		if(ok) {
+			$dialog.next().remove();
+			tzUtil.animates($dialog,opts.animate);
+		}
+	}});
+
+*	图形界面
+
+![alert](https://github.com/coolfxl/cool-module/blob/master/pictures/alert.jpg)
+
+
+
