@@ -77,12 +77,12 @@ js组件库，最终版，附带操作说明
 
   }});
 
-	*	图形界面
+*	图形界面
   
 ![树形菜单](https://github.com/coolfxl/cool-module/blob/master/pictures/more-tree.png)
 
 
-  * 分页
+* 分页
   
     div class="cpage"
     
@@ -101,13 +101,14 @@ js组件库，最终版，附带操作说明
 		
 		}
 	});
-	* 图形界面
+* 图形界面
 	
 	![分页](https://github.com/coolfxl/cool-module/blob/master/pictures/page.jpg)
 
+
 * 弹出层
 
-	*	iframe
+*	iframe
 	
 	$.tzIframe({width:320,height:400,title:"用户分配角色",ghost:false,content:"iframe.html",callback:function(iframe,$dialog,opts){
 	
@@ -117,64 +118,69 @@ js组件库，最终版，附带操作说明
 		
 	}});
 	
-	*	图形界面
+*	图形界面
 
 
 ![iframe](https://github.com/coolfxl/cool-module/blob/master/pictures/iframe.jpg)
-	*	iframe
+
+
+*	confirm
 	
-	$.tzConfirm({
 	
-		width:450,
-		height:430,
-		title:"新增客户信息",
-		ghost:false, // 拖动是否产生镜像
-		icon:"",
-		content:"<ul class='predata'>"+
-		"			<li>"+
-		"				<a><span>客户编码</span><input id='cli_code' /></a>"+
-		"			</li>"+
-		"			<li>"+
-		"				<a><span>客户名称</span><input id='cli_name' /></a>"+
-		"			</li>"+
-		"			<li>"+
-		"				<a><span>联系人</span><input id='cli_people' /></a>"+
-		"			</li>"+
-		"			<li>"+
-		"				<a><span>联系电话</span><input id='cli_telephone' /></a>"+
-		"			</li>"+
-		"			<li>"+
-		"				<a><span>传真</span><input id='cli_fax' /></a>"+
-		"			</li>"+
-		"			<li>"+
-		"				<a><span>地址</span><input id='cli_address' /></a>"+
-		"			</li>"+
-		"			<li>"+
-		"				<a><span>公司</span><input id='cli_company' /></a>"+
-		"			</li>"+
-		"			<li>"+
-		"				<a><span>备注</span><input id='cli_description' /></a>"+
-		"			</li>"+
-		"		</ul>",
-		callback:function(ok, $dialog, opts){
-			if(ok){
-				if(isEmpty($("#cli_code").val())){
-					$("#cli_code").tips({
-						msg: "客户编码不能为空",
-						side: 2,
-						color: '#fff',
-						bg: '#f00',
-						time: 3,
-						x: 0
-					})
-				} else {
-					$dialog.next().remove();
-					tzUtil.animates($dialog,opts.animate);
+		$.tzConfirm({
+
+			width:450,
+			height:430,
+			title:"新增客户信息",
+			ghost:false, // 拖动是否产生镜像
+			icon:"",
+			content:"<ul class='predata'>"+
+			"			<li>"+
+			"				<a><span>客户编码</span><input id='cli_code' /></a>"+
+			"			</li>"+
+			"			<li>"+
+			"				<a><span>客户名称</span><input id='cli_name' /></a>"+
+			"			</li>"+
+			"			<li>"+
+			"				<a><span>联系人</span><input id='cli_people' /></a>"+
+			"			</li>"+
+			"			<li>"+
+			"				<a><span>联系电话</span><input id='cli_telephone' /></a>"+
+			"			</li>"+
+			"			<li>"+
+			"				<a><span>传真</span><input id='cli_fax' /></a>"+
+			"			</li>"+
+			"			<li>"+
+			"				<a><span>地址</span><input id='cli_address' /></a>"+
+			"			</li>"+
+			"			<li>"+
+			"				<a><span>公司</span><input id='cli_company' /></a>"+
+			"			</li>"+
+			"			<li>"+
+			"				<a><span>备注</span><input id='cli_description' /></a>"+
+			"			</li>"+
+			"		</ul>",
+			callback:function(ok, $dialog, opts){
+				if(ok){
+					if(isEmpty($("#cli_code").val())){
+						$("#cli_code").tips({
+							msg: "客户编码不能为空",
+							side: 2,
+							color: '#fff',
+							bg: '#f00',
+							time: 3,
+							x: 0
+						})
+					} else {
+						$dialog.next().remove();
+						tzUtil.animates($dialog,opts.animate);
+					}
 				}
 			}
-		}
-	});
-	*	图形界面
+		});
+		
+		
+*	图形界面
 	
 ![confirm](https://github.com/coolfxl/cool-module/blob/master/pictures/confirm.jpg)
 
@@ -209,7 +215,7 @@ js组件库，最终版，附带操作说明
 
 *	提示框
 
-	*	top-tip
+*	top-tip
 	
 	/**
 	 * 友情提示组件，从html的顶部出现
@@ -233,7 +239,7 @@ js组件库，最终版，附带操作说明
 	 * @param $
 	 */
 	 
-	*	图形界面
+*	图形界面
 
 ![top-tip](https://github.com/coolfxl/cool-module/blob/master/pictures/top-tip.jpg)
 
