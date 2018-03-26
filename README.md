@@ -5,14 +5,23 @@ js组件库，最终版，附带操作说明
 引进资源文件
 
 <!-- 分页样式 -->
+
 <link rel="stylesheet" type="text/css" href="css/css/tz-page.css"/>
+
 <!-- js组件库所有的样式 -->
+
 <link rel="stylesheet" href="css/css/sg.css" />
+
 <!-- 树形菜单样式 -->
+
 <link rel="stylesheet" type="text/css" href="tree/tm_tree.css"/>
+
 <!-- 引入jQuery依赖 -->
+
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+
 <!-- 树形菜单js -->
+
 <script type="text/javascript" src="tree/tm_tree.js" ></script>
 <!-- js组件库工具类 -->
 <script type="text/javascript" src="js/sgutil.js"></script>
