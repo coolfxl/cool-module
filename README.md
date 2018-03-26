@@ -177,4 +177,5 @@ js组件库，最终版，附带操作说明
 	});
 	*	图形界面
 	
-	![confirm](https://github.com/coolfxl/cool-module/blob/master/pictures/confirm.jpg)
+![iframe](https://github.com/coolfxl/cool-module/blob/master/pictures/confirm.jpg)
+	
