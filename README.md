@@ -33,7 +33,7 @@ js组件库，最终版，附带操作说明
 
 * 日期
 
-  <input type="text" id="searchStartTime" class="Wdate" onclick="showdate1()">
+  input type="text" id="searchStartTime" class="Wdate" onclick="showdate1()"
 
   class="Wdate" 为必填项，具体操作看mydate97操作文档，这里做了一个组件库集成
 
@@ -41,12 +41,12 @@ js组件库，最终版，附带操作说明
        WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'});
     }
 
-* 图形界面
+  * 图形界面
 
 ![日历](https://github.com/coolfxl/cool-module/blob/master/pictures/date.jpg)
 
 * 树形菜单
-  <div id="permissiontree"></div><br/>
+  div id="permissiontree" <br/>
   $("#permissiontree").tmTree({})<br/>
   $("#permissiontree").tmTree({<br/>
     rightMenu:true,root:root,children:children,type:"checkbox",callback:function($opTarget, params, model){
