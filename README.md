@@ -51,15 +51,25 @@ js组件库，最终版，附带操作说明
   $("#permissiontree").tmTree({})<br/>
   $("#permissiontree").tmTree({<br/>
     rightMenu:true,root:root,children:children,type:"checkbox",callback:function($opTarget, params, model){
+        
     var opid = params.opid;//选中节点的id
+    
     if(model == "add"){
+    
     }
+    
     if(model == "edit"){
+    
     }
+    
     if(model == "delete"){
+    
     }
+    
     if(model == "cancel"){
+    
     }
+    
   }});
 
 
