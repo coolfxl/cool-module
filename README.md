@@ -77,7 +77,7 @@ js组件库，最终版，附带操作说明
 
   }});
 
-    * 图形界面
+    *	图形界面
   
 ![树形菜单](https://github.com/coolfxl/cool-module/blob/master/pictures/more-tree.png)
 
@@ -236,7 +236,7 @@ js组件库，最终版，附带操作说明
 	 
 	*	图形界面
 
-![toptip](https://github.com/coolfxl/cool-module/blob/master/pictures/top-tip.jpg)
+![top-tip](https://github.com/coolfxl/cool-module/blob/master/pictures/top-tip.jpg)
 
 *	center-tip
 	
@@ -247,7 +247,7 @@ js组件库，最终版，附带操作说明
 	
 *	图形界面
 
-![toptip](https://github.com/coolfxl/cool-module/blob/master/pictures/center-tip.jpg)
+![center-tip](https://github.com/coolfxl/cool-module/blob/master/pictures/center-tip.jpg)
 
 *	ele-tip
 
@@ -266,4 +266,38 @@ js组件库，最终版，附带操作说明
 	 
 	 *	图形界面
 	 
-![eletip](https://github.com/coolfxl/cool-module/blob/master/pictures/ele-tip.jpg)	 
+![ele-tip](https://github.com/coolfxl/cool-module/blob/master/pictures/ele-tip.jpg)	 
+
+
+
+*	滑块
+
+	div class="slider"
+	
+	$(".slider").tzSlider({horizontal:false});
+	
+	$(".slider2").tzSlider({horizontal:true});
+	
+	*	图形界面
+	
+![slider](https://github.com/coolfxl/cool-module/blob/master/pictures/slider.jpg)
+
+
+*	tab页面
+	
+	div class="tab"
+	
+	$(".tab").tzTab({
+	
+		index:3, //默认选中第几个
+		tabDatas:[
+			{title:"11111",content:"<img src='images/01.jpg' id='img'>",url:"www.baidu.com"},
+			{title:"22222",content:"bbbbb","url":"user.action"},
+			{title:"22222",content:"ddddd"},
+			{title:"33333",content:"rrrrr"}
+		]
+	});
+
+*	图形界面
+
+![tab](https://github.com/coolfxl/cool-module/blob/master/pictures/tab.jpg)
